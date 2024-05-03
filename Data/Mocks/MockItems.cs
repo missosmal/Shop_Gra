@@ -9,7 +9,7 @@ namespace Shop_Graf37.Data.Mocks
 {
     public class MockItems : IItems
     {
-        public ICategorys _category = new MockCategorys();
+        public ICategorys _category = new MockCaregorys();
         public IEnumerable<Items> AllItems
         {
             get

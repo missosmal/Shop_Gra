@@ -21,7 +21,7 @@ namespace Shop_Graf37
         {
             services.AddTransient<ICategorys, MockCaregorys>();
 
-            services.AddMvc();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
